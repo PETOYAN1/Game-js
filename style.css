@@ -1,0 +1,63 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh !important;
+    width: 100vw !important;
+    overflow: hidden;
+    background: linear-gradient(0deg,#4383c3 20%,#ffffff 90%);
+}
+.action {
+    display: table;
+    justify-content:space-between;
+    width: 50%;
+    font-size: 0;
+    line-height: 14vh;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+.action div {
+    width: 25.3333333%;
+    display: inline-block;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+.qar {
+    background-image: url(img/paper.png);
+}
+.paper {
+    background-image: url(img/rock1.png);
+}
+.scissors {
+    background-image: url(img/scissors.png);
+}
+.imagine {
+    height: 150px;
+    width: 150px;
+}
+.red {
+    text-align: center;
+    color: #ff3434;
+}
+.green {
+    text-align: center;
+    color: #39c94c;
+}
+.yellow {
+    text-align: center;
+    color: yellow;
+}
+#image {
+    margin-right: 6em;
+}
